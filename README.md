@@ -1,1 +1,1 @@
-its all about pointers
+more pointers
