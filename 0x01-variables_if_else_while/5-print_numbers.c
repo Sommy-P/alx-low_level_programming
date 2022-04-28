@@ -1,19 +1,23 @@
 #include <stdio.h>
-
 /**
  * main - entry point
  *
- * Description: Print numbers 0 to 9 on one line
+ * Description: Print lowercase alphabet excluding e and q
  * Return: 0
  */
 int main(void)
 {
-char i;  
-  
-for (i = '0'; i <= '9'; ++i)
-putchar(i);  
-  
-putchar('\n');  
 
-return (0);  
+char c;
+
+for (c = 'a'; c <= 'z'; ++c)
+{
+if (c != 'e' && c != 'q')
+putchar(c);
 }
+
+putchar('\n');
+
+return (0);
+}
+
